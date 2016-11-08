@@ -1,0 +1,20 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+
+var rang = [ 'black', 'blue', 'green', 'purple', 'red', 'silver', 'yellow'];
+function press() 
+{
+var back=document.getElementById('bod');
+back.style.backgroundColor = rang[Math.floor(Math.random() * rang.length)];
+}
+
+</script>
+
+</head>
+<body id="bod">
+<input id="but" name="but" type=Button onclick="press();" value="change"></input>
+</body>
+</html>
